@@ -1,8 +1,12 @@
 <ruleset name="SoFurry">
-  <target host="sofurry.com" />
-  <target host="www.sofurry.com" />
-  <target host="sofurryfiles.com" />
-  <target host="www.sofurryfiles.com" />
+	<target host="sofurry.com" />
+	<target host="www.sofurry.com" />
+	<target host="*.sofurry.com" />
+		<test url="http://toumal.sofurry.com/ />
+		<test url="http://shockrice.sofurry.com/ />
+		<test url="http://gene-ric.sofurry.com/ />
+	<target host="sofurryfiles.com" />
+	<target host="www.sofurryfiles.com" />
 
   <securecookie host="^(?:www)?\.sofurry\.com$" name=".+" />
 
